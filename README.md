@@ -9,3 +9,5 @@ So here it goes, `vim-js-indent` providing just this piece of functionality.
 
 Installation is straightforward, just clone it in your *~/.vim/bundle* or use any plugin manager out there, like [pathogen](https://github.com/tpope/vim-pathogen), [vundle](https://github.com/VundleVim/Vundle.vim), [neobundle](https://github.com/Shougo/neobundle.vim).
 There is no need for any `make` or `build` steps, just plain clone will do the work.
+
+Keeping up to date with changes made from https://github.com/randunel/vim-javascript who is actively working on perfecting dot-chain indention.
