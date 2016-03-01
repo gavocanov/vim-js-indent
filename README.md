@@ -1,3 +1,18 @@
+### note
+
+I'm using now this setup for months:
+```vim
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
+Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
+```
+and I'm very happy with it.
+
+If I remember correctly the initial necessity for this plugin was some problems with the combination of [yajs](https://github.com/othree/yajs.vim) and the [jsx plugin](https://github.com/mxw/vim-jsx), by using just [pangloss JS plugin](https://github.com/pangloss/vim-javascript) I'm having no problems at all now and all the new ES stuff just works, including the semicolon-less style.
+
+Yajs was kind of nice on the eyes but was getting slower and slower for me after every update, and the colouring was not much consistent IMHO.
+
+Hope this helps. 
+
 # vim-js-indent
 JavaScript indentation for VIM
 
